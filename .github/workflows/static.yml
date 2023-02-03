@@ -37,7 +37,7 @@ jobs:
         with:
           # Upload entire repository
           # 部署路径
-          path: './index'
+          path: 'index.html'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
